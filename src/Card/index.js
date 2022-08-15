@@ -8,7 +8,7 @@ const CardNoMemo = ({ cityName }) => {
     if (!data) return null;
     console.log('Render cityName', cityName);
     const { name, weather, main } = data;
-    const { description, icon } = weather[0];
+    const { description, icon } = weather[null];
     const { temp, humidity, feels_like } = main;
     return (
         <div className="Card">
