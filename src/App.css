@@ -1,24 +1,25 @@
 .Main {
-  background-color: #d8d8d8;
   height: 100vh;
-  padding: 24px;
+  padding: 10px;
 }
 
 .CardList {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .Card {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 260px;
   height: fit-content;
   padding: 12px;
   border-radius: 12px;
   background-color: #3A8AC0;
   font-size: 14px;
   color: #fff;
-  margin-left: 24px;
+  margin-top: 10px;
   box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
 }
 
@@ -49,7 +50,7 @@
 }
 
 .Temperature:after {
-    content: "°";
+  content: "°";
 }
 
 .Information {
